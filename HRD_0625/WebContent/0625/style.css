@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+header{
+	background-color:blue;
+	align:center;
+}
+
+header #logo{
+	float:center;
+	vertical-align : middle;
+	align : center;
+	margin:10px 0 5px 20px;
+	color:white;
+	font-size:50px;
+}
+nav{
+	margin:0 20px 20px 0;
+	padding : 0 0 10px 0;
+	
+	background-color: #8000ff;
+	float:left;
+	width : 100%;
+	height: 50px;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight : bold;
+	text-align:center;	
+}
+nav ul{
+	list-style : none;
+}
+nav ul li{
+	list-style : none;
+	float : left;
+	margin : 0 5px;
+}
+nav a{
+	display:block;
+	padding:5px 20px 8px 20px;
+	height:20px;
+	text-decoration:none;
+	color:white;
+	border-style: hidden hidden solid hidden;
+	border-color : transparent;
+}
+footer{
+	clear: both;
+	height : 20px;
+	background-color : blue;
+	font-size : 14px;
+	text-align : center;
+	
+	margin: 0px 0 0 0px;
+	padding: 10px 0 20px 0;
+	float: center;
+	font-family: consolas;
+	color: white;
+}
+footer #copyright{
+	
+}
+h2{
+	text-align : center;
+	
+}
+section{
+	background-color: #efefef;
+	height : 700px;
+	width : 100%;
+}
+table,th,td{
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+table a{
+	text-align : center;
+}
+
